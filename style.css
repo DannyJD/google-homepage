@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  /* Color Variables */
+  --button-color: #f8f9fa;
+  --footer-color: #f2f2f2;
+  --magnifyglass-color: #f2f2f2;
+  --font-color: #393939;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*  Nav Bar */
+.nav-list {
+  background: #fff;
+  box-shadow: #f2f2f2;
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 20px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-item a:hover {
+  border-bottom: #000 solid 1px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Search Bar */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+#google-logo {
+  height: 12vh;
+  margin: auto;
+}
+
+.search-bar {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  border: #f4f4f4 solid 2px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75vw;
+  height: 5vh;
+  margin: auto;
+}
+.search-bar:hover {
+  -webkit-box-shadow: 0px 5px 21px -10px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 5px 21px -10px rgba(0, 0, 0, 0.43);
+}
+
+.search-btns {
+  margin: auto;
+  padding: 10px;
+}
+
+.search-btns button {
+  margin: 5px 20px 0 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button-color);
+}
+
+.fas {
+  color: #393939;
+}
+/* Footer */
+
+footer {
+  background-color: #f4f4f4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+footer ul li a,
+footer a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.sustanability-efforts {
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+.sustanability-efforts img {
+  height: 15px;
+  width: 15px;
+}
+
+.footer-nav ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.settings {
+  display: none;
+}
